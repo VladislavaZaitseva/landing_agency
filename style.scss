@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+$white-color: #FFFFFF;
+$black-color: #000000;
+$orange-color: #9F4A19;
+$light-blue-color: #F1EAFB;
+$light-white-color:#F9F7F3;
+
+// $gray-color:
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    background:$light-white-color;
+    width: 1400px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .img-logo {
+        background-image: url(./assects/IMAGE.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 104px;
+        height: 40px;
+    }
+
+    nav {
+        display: flex;
+
+        p {
+            font: 400 16px 'Roboto';
+            $black-color: #000000;
+            border-left: 1px solid $black-color;
+            border-right: 1px solid;
+            padding: 20px 40px;
+        }
+    }
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+        width: 430px;
+
+        h1 {
+            font: 400 70px 'Roboto';
+            color: $black-color;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font: 400 18px 'Roboto';
+            color: $black-color;
+
+            &:last-child {
+                font: 400 14px 'Roboto';
+                color: #808080;
+                width: 262px;
+                text-align: center;
+                margin-top: 15px;
+            }
+        }
+
+
+
+        .btn-free {
+            width: 262px;
+            background: #F1EAFB;
+            border: 1px solid $black-color;
+            padding: 11px 0;
+            text-align: center;
+            margin: 30px 0 12px 0;
+        }
+
+        .btn-demo {
+            width: 262px;
+            color: $orange-color;
+            border: 1px solid $black-color;
+            padding: 11px 0;
+            text-align: center;
+        }
+    }
+
+    .img {
+        background-image: url(./assects/Frame.svg);
+        width: 500px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
+
+
+.img-phone {
+    background-image: url(./assects/IMAGE\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 894px;
+    height: 733px;
+    margin: 120px auto;
+}

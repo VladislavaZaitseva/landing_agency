@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #F9F7F3;
+  width: 1400px;
+  margin: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .img-logo {
+  background-image: url(./assects/IMAGE.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 40px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav p {
+  font: 400 16px "Roboto";
+  border-left: 1px solid #000000;
+  border-right: 1px solid;
+  padding: 20px 40px;
+}
+
+.start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.start .left-side {
+  width: 430px;
+}
+.start .left-side h1 {
+  font: 400 70px "Roboto";
+  color: #000000;
+  margin-bottom: 30px;
+}
+.start .left-side p {
+  font: 400 18px "Roboto";
+  color: #000000;
+}
+.start .left-side p:last-child {
+  font: 400 14px "Roboto";
+  color: #808080;
+  width: 262px;
+  text-align: center;
+  margin-top: 15px;
+}
+.start .left-side .btn-free {
+  width: 262px;
+  background: #F1EAFB;
+  border: 1px solid #000000;
+  padding: 11px 0;
+  text-align: center;
+  margin: 30px 0 12px 0;
+}
+.start .left-side .btn-demo {
+  width: 262px;
+  color: #9F4A19;
+  border: 1px solid #000000;
+  padding: 11px 0;
+  text-align: center;
+}
+.start .img {
+  background-image: url(./assects/Frame.svg);
+  width: 500px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-phone {
+  background-image: url(./assects/IMAGE\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 894px;
+  height: 733px;
+  margin: 120px auto;
+}
