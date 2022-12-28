@@ -43,8 +43,13 @@ header nav {
 header nav p {
   font: 400 16px "Roboto";
   border-left: 1px solid #000000;
-  border-right: 1px solid;
+  border-right: 1px solid #000000;
   padding: 20px 40px;
+}
+header nav div {
+  font: 400 16px "Roboto";
+  background: #F1EAFB;
+  padding: 22px 53px;
 }
 
 .start {

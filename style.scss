@@ -46,8 +46,15 @@ header {
             font: 400 16px 'Roboto';
             $black-color: #000000;
             border-left: 1px solid $black-color;
-            border-right: 1px solid;
+            border-right: 1px solid $black-color;
             padding: 20px 40px;
+        }
+
+        div{
+            font: 400 16px "Roboto";
+            $orange-color: #9F4A19;
+            background: #F1EAFB;
+            padding: 22px 53px;
         }
     }
 }
